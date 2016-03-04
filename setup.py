@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='cbtests',
       version='0.2',
@@ -7,5 +7,7 @@ setup(name='cbtests',
       author='code.bo',
       author_email='contact@josezambrana.com',
       license='MIT',
-      packages=['cbtests'],
+      packages=find_packages(),
+      include_package_data=True,
+      package_data={'cbtests': ['fixtures/*.json']},
       zip_safe=False)

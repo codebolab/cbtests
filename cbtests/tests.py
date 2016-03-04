@@ -48,7 +48,10 @@ class TestViews(TestBase):
         'username': 'admin',
         'password': '.admin'
     }
-    token = "2e0584d61102e550936eb7ffcc26d7a31c5d2570"
+
+    # Some libraries like Django rest framework use a token to authenticate, it
+    # can be defined here.
+    token = ""
 
     def setUp(self):
         self.client = Client()
