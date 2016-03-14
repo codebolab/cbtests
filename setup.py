@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(name='cbtests',
       version='0.2',
       description='Simple tests for json api testing',
-      url='http://github.com/storborg/funniest',
+      url='https://github.com/codebolab/cbtests',
       author='code.bo',
       author_email='contact@josezambrana.com',
       license='MIT',
